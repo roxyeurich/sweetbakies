@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+<title></title>
+<meta charset="utf-8"/>
+    
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Cookie|Goudy+Bookletter+1911');
+
+ /* Header*/
+    
+    #pagewrap {
+    width:100%;
+    margin: 5px auto;
+    border: solid transparent 1px;
+    }
+
+    nav {
+    text-align: center;
+    width:100%;
+    height: 300px;
+    background-color: black;
+    }
+    
+
+    ul {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    }
+
+    li {
+    font-family: 'Goudy Bookletter 1911';
+    display:inline-block;
+    margin-top: 200px;
+    }
+
+    li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+    background-color: #6D6E71;
+    }
+
+    .active {
+    background-color: #444444;
+    }
+    
+    .logo {
+    width: 150px;
+    padding: 5px;
+    float: center;
+    }
+    
+/*Content*/
+    
+ #content {
+    width: 100%;
+    height:1400px;
+    background-color: white;     
+    }
+ 
+    #name {
+    font-family: 'Cookie';
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    }
+    
+    .voluntary {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    }
+    
+    
+    #textbox {
+    width:58%;
+    display:block;
+    margin:auto;
+    margin-top: 100px;
+    background-color: #e5e5e5;
+    padding: 15px;
+    }
+    
+    .love {
+    text-align: center;
+    font-family: 'cookie';
+    font-size: 35px;
+    }
+    
+    .text {
+    text-align: center;
+    
+    font-family: 'Goudy Bookletter 1911';
+    font-size: 16px;
+    }
+    
+    input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+
+    input[type=text]:focus {
+    width: 50%;
+    }
+    
+    .map {
+    display:block;
+    width:60%;
+    margin:auto;
+    }
+    
+    
+/*Footer*/
+    
+    footer {
+    width: 100%;
+    height:360px;
+    background-color: #444444; 
+    }
+    
+    
+    #socialmedia {
+    width:100%;
+    height: 150px;
+    border:solid #444444 2px;
+    background-color: #444444;  
+    text-align: center;
+    }
+    
+    .icons {
+    display:inline-block;
+    margin-top: 60px;
+    word-spacing: 5px;
+    cursor: pointer; 
+    }
+    
+    #wrapcopyright{
+    width:100%;
+    height:100px;
+    border:solid black 2px;
+    background-color: black;
+    text-align: center;
+    }  
+    
+    .cpr {
+    display:inline-block;
+    width: 100%;  
+    }
+    
+    .footerbutton {
+    background-color: black;
+    font-family: 'Cookie';
+    font-size: 14px;
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;     
+    }
+    
+    #last {
+    width:100%;
+    height:100px;
+    border: solid black 2px;
+    background-color: black;
+    font-family: 'Cookie';
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    }
+    
+    .first {
+    float:left;
+    margin-left: 20px;
+    }
+    
+    .second{
+    float:right;
+    margin-right: 20px;    
+    }
+    
+</style>
+</head>
+ 
+   
+<body>
+
+<div id="pagewrap">
+    
+<!--Nav Bar-->   
+<nav>     
+<ul>
+ 
+<li><a href="bakieindex.html" class="button">Home</a></li>
+<li><a href="products.html" class="buttons">Products</a></li>
+<li><a href="latestworks.html" class="buttons">Creations </a></li>
+
+<img class="logo" src="logowhite1.jpg" alt="logo" />
+
+<li><a href="mission.html" class="button">Mission</a></li>
+<li><a href="location.html" class="active">Location</a></li>
+<li><a href="contact.html" class="button">Contact</a></li>
+<li>
+   
+</ul>
+</nav>   
+
+<div id="content">
+    
+     
+<div id="name">   
+<p> Location</p>    
+</div>
+
+<div id="textbox">  
+
+ <div class="love"><p> Adress & Hours</p> </div>
+ 
+    <div class="text">
+    <p> <strong>Adress:</strong> 2200 Willingdon Ave, Burnaby, BC V2G 7H2</p>
+    <p> <strong>Phone Number:</strong> (609) 434-5734</p>
+<br><br>
+        <p> <strong>Open Hours:</strong></p>
+    <p> Monday - Friday: 8am - 5pm.</p>
+    <p> Sat/Sun: 10am - 4pm.</p>
+    <p> Holidays: Closed.</p>
+    
+<br><br>
+
+<p>Search by Postal Code.</p>
+
+<input type="text" name="search" placeholder="Search..">
+
+</div>
+</div> <!--close content-->
+
+
+<br><br><br><br> 
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10417.458992993083!2d-123.00647254554231!3d49.25053211362084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1512529442949" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class='map'></iframe>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+<br><br><br><br><br><br><br>  
+          
+</div>
+
+<footer>
+ 
+       
+<div id="socialmedia">
+
+<div class="icons">
+<img class="socialmediaicon" src="facebook.png" alt="icon" width="40px"/>
+<img class="socialmediaicon" src="instagram.png" alt="icon" width="40px"/>
+<img class="socialmediaicon" src="youtube.png" alt="icon" width="40px"/>
+<img class="socialmediaicon" src="pinterest.png" alt="icon" width="40px"/>
+<img class="socialmediaicon" src="twitter.png" alt="icon" width="40px"/>
+<img class="socialmediaicon" src="map_marker.png" alt="icon" width="40px"/>
+</div>
+
+</div>    
+       
+
+<div id="wrapcopyright">
+
+<div class="cpr">
+<a href="bakieindex.html" class="footerbutton">Home</a>
+<a href="products.html" class="footerbutton">Products</a>
+<a href="latestworks.html" class="footerbutton">Creations</a>
+<a href="mission.html" class="footerbutton">Mission</a>
+<a href="location.html" class="footerbutton">Location</a>
+<a href="contact.html" class="footerbutton">Contact</a>
+</div>
+    
+</div>
+     
+<div id="last">
+
+<div class="first">
+<p>©2017 Sweet Bakie. All rights reserved.</p> 
+</div>
+     
+<div class="second">
+<p>Designed By: Roxy - Supported by: BCIT.</p> 
+</div>
+  
+</div>  
+
+           
+            
+</footer>     
+             
+</div> <!--Closing pagewrap-->  
+
+</body> 
+</html>
